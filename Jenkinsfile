@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/b-chetna/question2.git'
+                git branch: 'main', url: 'https://github.com/b-chetna/q2.git'
             }
         }
         stage('Install Dependencies') {
